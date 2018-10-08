@@ -5,14 +5,14 @@
         <el-carousel-item>
           <img src="../assets/images/ad-1.jpg" alt="">
         </el-carousel-item>
-          <el-carousel-item>
-            <img src="../assets/images/ad-2.jpg" alt="">
+        <el-carousel-item>
+          <img src="../assets/images/ad-2.jpg" alt="">
         </el-carousel-item>
-            <el-carousel-item>
-              <img src="../assets/images/ad-1.jpg" alt="">
+        <el-carousel-item>
+          <img src="../assets/images/ad-1.jpg" alt="">
         </el-carousel-item>
-              <el-carousel-item>
-                <img src="../assets/images/ad-2.jpg" alt="">
+        <el-carousel-item>
+          <img src="../assets/images/ad-2.jpg" alt="">
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -87,92 +87,388 @@
         </div>
 
         <div class="product-scroll">
-          <div id="bscroll" ref="bscroll">
-            <div class="bscroll-container">
-              <!-- <div class="out">
+          <div class="swiper-container swiper-container-horizontal" id="swiper-container2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide blue-slide swiper-slide-active" style="width: 300px;background:red;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-slide red-slide swiper-slide-next" style="width: 300px;background:orange;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:green;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:pink;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:yellow;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-slide blue-slide swiper-slide-active" style="width: 300px;background:red;">
                 <div class="product">
                   <img src="../assets/images/p_19.jpg" alt="">
                   <div class="info">
                     <div class="detail">
                       <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
                     </div>
-                    <div class="price">￥23.00</div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
                   </div>
                 </div>
-              </div> -->
-              pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+              </div>
+              <div class="swiper-slide red-slide swiper-slide-next" style="width: 300px;background:orange;">
+                <div class="product">
+                  <img src="../assets/images/p_19.jpg" alt="">
+                  <div class="info">
+                    <div class="detail">
+                      <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
+                    </div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:green;">
+                <div class="product">
+                  <img src="../assets/images/p_19.jpg" alt="">
+                  <div class="info">
+                    <div class="detail">
+                      <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
+                    </div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:pink;">
+                <div class="product">
+                  <img src="../assets/images/p_19.jpg" alt="">
+                  <div class="info">
+                    <div class="detail">
+                      <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
+                    </div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:yellow;">
+                <div class="product">
+                  <img src="../assets/images/p_19.jpg" alt="">
+                  <div class="info">
+                    <div class="detail">
+                      <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
+                    </div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide orange-slide" style="width: 300px;background:black;">
+                <div class="product">
+                  <img src="../assets/images/p_19.jpg" alt="">
+                  <div class="info">
+                    <div class="detail">
+                      <p>乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</p>
+                    </div>
+                    <div class="price">
+                      ￥23.00
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+              &nbsp;</div>
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+              &nbsp;</div>
+          </div>
+        </div>
+        <div class="drinks">
+          <div class="drinks-left">
+            <img src="../assets/images/AD_03 (1).png" alt="">
+          </div>
+          <div class="drinks-center">
+            <img src="../assets/images/AD_04.png" alt="">
+          </div>
+          <div class="drinks-right">
+            <img src="../assets/images/AD_06.png" alt="">
           </div>
         </div>
       </div>
     </div>
+    <div class="product-info">
+      <productInfo></productInfo>
+    </div>
+    <div class="out-friendship-link">
+      <FriendshipLink></FriendshipLink>
+    </div>
   </div>
+
 </template>
 
 <script>
-import BScroll from "better-scroll";
+import Swiper from "swiper";
+import "swiper/dist/css/swiper.min.css";
+import productInfo from "./detailPage/productInfo";
+import FriendshipLink from "./detailPage/FriendshipLink"
 export default {
+  components: {
+    productInfo,
+    FriendshipLink
+  },
   data() {
     return {};
   },
   mounted() {
-    var bscrollDom = document.getElementById("bscroll");
-    let scroll = new BScroll(bscrollDom, {
-      //options
-      startX: 0,
-      startY: 0
+    var mySwiper = new Swiper(".swiper-container", {
+      slidesPerView: 5,
+      loop: true,
+      spaceBetween: 80,
+      // autoplay: false,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      autoplay: {
+        delay: 900,
+        stopOnLastSlide: false,
+        disableOnInteraction: true
+      }
     });
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="scss">
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 955px;
+  height: 270px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#api #content .blue-slide {
+  background: #4390ee;
+  color: #fff;
+}
+
+#api #content .swiper-slide {
+  line-height: 300px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  /* background-color: pink; */
+  position: relative;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.product {
+  width: 194px;
+  height: 236px;
+  float: left;
+  text-align: left;
+  img {
+    width: 194px;
+    height: 159px;
+  }
+  .info {
+    height: 77px;
+    width: 194px;
+    .detail {
+      height: 34px;
+      width: 194px;
+      font-size: 12px;
+      p {
+        height: 17px;
+        line-height: 17px;
+      }
+    }
+    .price {
+      height: 21px;
+      line-height: 21px;
+      color: red;
+      font-size: 16px;
+    }
+  }
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-button-prev {
+  background-image: url("../assets/images/2.png");
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url("../assets/images/2.png");
+  left: 10px;
+  right: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url("../assets/images/1.png");
+  right: 10px;
+  left: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: 0.3s opacity;
+  -o-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+</style>
+
 <style scoped lang="scss">
+.content-box {
+  height: 100%;
+  width: 100%;
+}
+.product-info {
+  width: 61.6%;
+  height: 76%;
+  margin-top: 60px;
+  margin-left: 18.5%;
+  // background-color: pink;
+}
+.out-friendship-link{
+   width: 61.6%;
+  height: 13.4%;
+   margin-left: 18.5%;
+  //  background-color: pink;
+}
 .swiper-container {
   width: 100%;
 
@@ -215,7 +511,7 @@ export default {
   .product-category-left {
     float: left;
     width: 220px;
-    height: 590px;
+    height: 622px;
     border: 1px solid #90b830;
     .title {
       height: 40px;
@@ -257,7 +553,7 @@ export default {
     float: left;
     width: 953px;
     height: 590px;
-    background-color: pink;
+    // background-color: pink;
     .top-nav {
       height: 40px;
       line-height: 40px;
@@ -278,45 +574,18 @@ export default {
       width: 955px;
       height: 236px;
       // background-color: pink;
-      overflow: hidden;
-      #bscroll {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        .bscroll-container {
+      // overflow: hidden;
+    }
+    .drinks {
+      width: 955px;
+      height: 346px;
+      .drinks-left,
+      .drinks-center,
+      .drinks-right {
+        width: 33.33%;
+        float: left;
+        img {
           width: 100%;
-          height: 100%;
-          .out {
-            .product {
-              width: 194px;
-              height: 236px;
-              background-color: pink;
-              float: left;
-              img {
-                width: 194px;
-                height: 159px;
-              }
-              .info {
-                height: 77px;
-                width: 194px;
-                .detail {
-                  height: 34px;
-                  width: 194px;
-                  font-size: 12px;
-                  p {
-                    height: 17px;
-                    line-height: 17px;
-                  }
-                }
-                .price {
-                  height: 21px;
-                  line-height: 21px;
-                  color: red;
-                  font-size: 16px;
-                }
-              }
-            }
-          }
         }
       }
     }

@@ -9,7 +9,7 @@ import iView from 'iview'
 import 'iview/dist/styles/iview.css'
 Vue.use(ElementUI)
 Vue.use(iView)
-
+import "./assets/css/common.css"
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

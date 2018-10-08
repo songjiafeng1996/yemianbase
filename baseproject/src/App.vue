@@ -103,6 +103,8 @@ export default {
 <style lang="scss">
 @import "./assets/css/common.css";
 #app {
+  height: 100%;
+  width:100%;
   .top {
     height: 30px;
     border-bottom: 1px solid #ccc;
