@@ -1,24 +1,30 @@
 <template>
   <div id="app">
-    <div class="top">
-      <div class="top-content">
-        <div class="login-register fl">
-          <span>请登陆</span>
-          <span>请注册</span>
-        </div>
-        <div class="top-content-right fr">
-          <div>首页</div>
-          <div>我的小充</div>
-          <div>消息中心</div>
-          <div>商品分类</div>
-          <div class="cart">我的购物车<em>(23)</em></div>
+    <div class="app-top" v-show="$route.meta.navShow">
+      <div class="top">
+        <div class="top-content">
+          <div class="login-register fl">
+            <router-link to="/Login">
+              <span>请登陆</span>
+            </router-link>
+            <span>请注册</span>
+          </div>
+          <div class="top-content-right fr">
+            <div>首页</div>
+            <!-- 公共产品 -->
+            <router-link to="/commonProduct">
+              <div>我的小充</div>
+            </router-link>
+            <div>消息中心</div>
+            <div>商品分类</div>
+            <div class="cart">我的购物车<em>(23)</em></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="header type-page">
-      <div class="logo fl">
-        <img src="./assets/images/logo.png" alt="">
-      </div>
+      <div class="header type-page">
+        <div class="logo fl">
+          <img src="./assets/images/logo.png" alt="">
+        </div>
         <div class="search-box fl">
           <div class="search-top clearfix">
             <div class="product">产品</div>
@@ -48,7 +54,7 @@
           <div class="living-circle" :class="{'active-nav-more':this.navActiveIndex==='b'}" @click="navtab2()">
             <span class="circle"></span>
             半小时生活圈
-            </div>
+          </div>
           <div :class="{'active-nav':this.navActiveIndex==='c'}" @click="navtab3()">你身边的超市</div>
           <div :class="{'active-nav':this.navActiveIndex==='d'}" @click="navtab4()">预售专区</div>
           <div :class="{'active-nav':this.navActiveIndex==='e'}" @click="navtab5()">商城</div>
@@ -57,54 +63,55 @@
           <div :class="{'active-nav':this.navActiveIndex==='h'}" @click="navtab8()">联系我们</div>
         </div>
       </div>
-      <router-view />
     </div>
+    <router-view />
+  </div>
 
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      navActiveIndex: 'a'
-    }
+      navActiveIndex: "a"
+    };
   },
-  mounted () {},
+  mounted() {},
   methods: {
-    navtab1 () {
+    navtab1() {
       // alert ("我是")
-      this.navActiveIndex = 'a'
+      this.navActiveIndex = "a";
     },
-    navtab2 () {
-      this.navActiveIndex = 'b'
+    navtab2() {
+      this.navActiveIndex = "b";
     },
-    navtab3 () {
-      this.navActiveIndex = 'c'
+    navtab3() {
+      this.navActiveIndex = "c";
     },
-    navtab4 () {
-      this.navActiveIndex = 'd'
+    navtab4() {
+      this.navActiveIndex = "d";
     },
-    navtab5 () {
-      this.navActiveIndex = 'e'
+    navtab5() {
+      this.navActiveIndex = "e";
     },
-    navtab6 () {
-      this.navActiveIndex = 'f'
+    navtab6() {
+      this.navActiveIndex = "f";
     },
-    navtab7 () {
-      this.navActiveIndex = 'g'
+    navtab7() {
+      this.navActiveIndex = "g";
     },
-    navtab8 () {
-      this.navActiveIndex = 'h'
+    navtab8() {
+      this.navActiveIndex = "h";
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
 @import "./assets/css/common.css";
 #app {
   height: 100%;
-  width:100%;
+  width: 100%;
   .top {
     height: 30px;
     border-bottom: 1px solid #ccc;
@@ -260,6 +267,6 @@ export default {
   padding: 9px 3px;
 }
 .active-nav {
-  background-color: #fb914a!important;
+  background-color: #fb914a !important;
 }
 </style>

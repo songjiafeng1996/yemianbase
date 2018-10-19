@@ -258,6 +258,9 @@
     <div class="out-friendship-link">
       <FriendshipLink></FriendshipLink>
     </div>
+    <div class="out-common-buttom">
+      <commonButtom class="buttom-content"></commonButtom>
+    </div>
   </div>
 
 </template>
@@ -266,11 +269,13 @@
 import Swiper from "swiper";
 import "swiper/dist/css/swiper.min.css";
 import productInfo from "./detailPage/productInfo";
-import FriendshipLink from "./detailPage/FriendshipLink"
+import FriendshipLink from "./detailPage/FriendshipLink";
+import commonButtom from "./detailPage//commonButtom";
 export default {
   components: {
     productInfo,
-    FriendshipLink
+    FriendshipLink,
+    commonButtom
   },
   data() {
     return {};
@@ -463,11 +468,22 @@ export default {
   margin-left: 18.5%;
   // background-color: pink;
 }
-.out-friendship-link{
-   width: 61.6%;
-  height: 13.4%;
-   margin-left: 18.5%;
+.out-friendship-link {
+  width: 61.6%;
+  height: 15.4%;
+  margin-left: 18.5%;
   //  background-color: pink;
+}
+.out-common-buttom {
+  width:100%;
+  background-color: #3d3d45;
+
+   height: 17%;
+   margin-top:1%;
+  .buttom-content {
+    width: 100%;
+    height: 100%;
+  }
 }
 .swiper-container {
   width: 100%;

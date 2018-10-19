@@ -28,10 +28,13 @@ export default {};
   width: 100%;
   height: 100%;
   border: 5px solid #90b830;
+  position: relative;
   .left-title {
     width: 4%;
     height: 100%;
-    float: left;
+    position: absolute;
+    top:0;
+    left:0;
     background-color: #90b830;
     display: flex;
     justify-content: center;
@@ -40,13 +43,14 @@ export default {};
   .right-logo {
     width: 96%;
     height: 100%;
-    float: left;
-    background-color: pink;
+    position: absolute;
+    top:0;
+    right:0;
     img{
-        width:9%;
+        width:112px;
         float: left;
-        height: 40%;
-        float: left;
+        height: 52px;
+        margin:5px;
     }
   }
 }
